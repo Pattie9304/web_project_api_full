@@ -1,4 +1,4 @@
-const Card = require('../models/card');
+const Card = require('../models/cards.js');
 
 const handlerError = () => {
     const error = new Error('Card not found');
