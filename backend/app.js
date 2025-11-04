@@ -6,7 +6,7 @@ const { login, createUser } = require('./controllers/users');
 const auth = require('./middleware/auth');
 const { requestLogger, errorLogger } = require('./utils/logger');
 const mongoose = require('mongoose');
-const allowedOrigins = ["https://around.epsilontravel.com.ar", "http://localhost:3000", "https://api.around.epsilontravel.com.ar"];
+const allowedOrigins = ["https://around.epsilontravel.com.ar", "http://around.epsilontravel.com.ar", "http://localhost:3000", "https://api.around.epsilontravel.com.ar"];
 let cors = require('cors');
 var corsOptions = {
   origin: function (origin, callback) {
