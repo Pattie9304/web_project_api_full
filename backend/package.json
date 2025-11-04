@@ -8,7 +8,7 @@
     "dev": "nodemon app.js",
     "lint": "npx eslint ."
   },
-  "homepage": "api.around.pintravel.ro",
+  "homepage": "api.around.epsilontravel.com.ar",
   "author": "Patricia Higuera",
   "license": "ISC",
   "devDependencies": {
