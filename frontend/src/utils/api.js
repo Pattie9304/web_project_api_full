@@ -62,7 +62,7 @@ class Api {
   }
   
 const api = new Api({
-   baseUrl: 'https://api.around.kje.us',/*MODIFICAR POR DOMINIO*/
+   baseUrl: 'https://around.epsilontravel.com.ar',
    headers: {
      authorization: `Bearer ${token}`,
    },
