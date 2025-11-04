@@ -1,4 +1,4 @@
-export const BASE_URL = "https://se-register-api.en.tripleten-services.com/v1"; /*MODIFICAR POR DOMINIO*/
+export const BASE_URL = "https://around.epsilontravel.com.ar";
 
 // La función registrada acepta los datos necesarios como argumentos, 
 // y envía una solicitud POST al endpoint dado.
